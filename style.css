@@ -1,0 +1,60 @@
+        /* Container styles */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4d03f;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: white;
+            background-color: #3498db;
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            margin: 0 0 20px 0;
+        }
+
+        /* Game container styles */
+        #container {
+            width: 600px;
+            height: 400px;
+            background-color: white;
+            border: 2px solid #bdc3c7;
+            position: relative;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Ball styles */
+        .ball {
+            width: 20px;
+            height: 20px;
+            background-color: #87ceeb;
+            border-radius: 50%;
+            position: absolute;
+            box-shadow: inset -2px -2px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Button styles */
+        #addBall {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #95a5a6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #addBall:hover {
+            background-color: #7f8c8d;
+        }
+
+        #addBall:active {
+            transform: scale(0.98);
+        }
